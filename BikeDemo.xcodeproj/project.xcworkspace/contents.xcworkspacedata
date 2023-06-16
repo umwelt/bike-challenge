@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/supertramp/Develop/BikeMap/BikeDemo.xcodeproj">
    </FileRef>
 </Workspace>
