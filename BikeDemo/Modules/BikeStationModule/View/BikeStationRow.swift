@@ -37,11 +37,11 @@ struct BikeStationRow: View {
 			.frame(maxWidth: .infinity)
 			.background(
 				RoundedRectangle(cornerRadius: 10)
-					.stroke(Color.gray, lineWidth: 1)
+					.stroke(bikeStation.freeBikes > 0 ? Color.green : Color.gray, lineWidth: 2)
 			)
 			.clipShape(RoundedRectangle(cornerRadius: 10))
 			.overlay(
-				Image(systemName: "chevron.right") // System provided disclosure indicator
+				Image(systemName: "chevron.right")
 					.resizable()
 					.aspectRatio(contentMode: .fit)
 					.frame(width: 13, height: 13)
