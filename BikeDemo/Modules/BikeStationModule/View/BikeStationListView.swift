@@ -17,35 +17,22 @@ struct BikeStationListView: View {
 	}
 
 	var body: some View {
-		VStack {
-			if let errorMessage = errorMessage {
-				Text(errorMessage)
-					.foregroundColor(.red)
-					.padding()
-			} else {
-				Text(Strings.title)
-					.font(.title)
-					.padding()
-
-				ScrollView {
-					VStack {
-						ForEach(viewModel.bikeStations, id: \.id) { station in
-							BikeStationRow(bikeStation: station)
-								.frame(maxWidth: .infinity, alignment: .leading)
-						}
-					}
+		ScrollView {
+			VStack {
+				ForEach(viewModel.bikeStations, id: \.id) { station in
+					BikeStationRow(bikeStation: station)
+						.frame(maxWidth: .infinity, alignment: .leading)
 				}
-				.overlay(
-					Group {
-						if viewModel.isRefreshing {
-							ProgressView() // The system activity indicator
-								.scaleEffect(1.5, anchor: .center)
-						}
-					}, alignment: .center
-				)
-
-				Spacer()
 			}
+			.padding()
+			.overlay(
+				Group {
+					if viewModel.isRefreshing {
+						ProgressView() // The system activity indicator
+							.scaleEffect(1.5, anchor: .center)
+					}
+				}, alignment: .center
+			)
 		}
 		.navigationTitle(Strings.title)
 		.refreshable {
@@ -56,7 +43,6 @@ struct BikeStationListView: View {
 		.task {
 			await fetchBikeStations()
 		}
-		.padding()
 	}
 
 	private func fetchBikeStations() async {

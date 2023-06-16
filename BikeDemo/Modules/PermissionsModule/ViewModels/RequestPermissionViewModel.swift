@@ -11,6 +11,7 @@ import CoreLocation
 class RequestPermissionViewModel: ObservableObject {
 	private let locationManagerService = LocationManagerService()
 	@Published var isLocationPermissionGranted: Bool = false
+	@Published var isPermissionDenied: Bool = false
 	@Published var showAlert: Bool = false
 
 	init() {
@@ -25,6 +26,7 @@ class RequestPermissionViewModel: ObservableObject {
 		case .notDetermined:
 			locationManagerService.requestPermission()
 		case .restricted, .denied:
+			isPermissionDenied = true
 			showAlert = true
 		case .authorizedWhenInUse, .authorizedAlways:
 			isLocationPermissionGranted = true
