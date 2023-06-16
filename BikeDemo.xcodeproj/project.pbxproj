@@ -118,6 +118,7 @@
 		30FB51F52A3BC29F0064D7FD = {
 			isa = PBXGroup;
 			children = (
+				30FB527D2A3C6AD10064D7FD /* README.markdown */,
 				30FB52002A3BC29F0064D7FD /* BikeDemo */,
 				30FB52112A3BC2A00064D7FD /* BikeMapTests */,
 				30FB521B2A3BC2A00064D7FD /* BikeMapUITests */,
@@ -145,7 +146,6 @@
 				30FB52072A3BC2A00064D7FD /* Preview Content */,
 				30FB523B2A3BC4800064D7FD /* Services */,
 				30FB52342A3BC4440064D7FD /* Shared */,
-				30FB527D2A3C6AD10064D7FD /* README.markdown */,
 			);
 			path = BikeDemo;
 			sourceTree = "<group>";
