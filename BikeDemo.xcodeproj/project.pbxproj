@@ -87,6 +87,7 @@
 		30FB526D2A3C4EB60064D7FD /* StationViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewData.swift; sourceTree = "<group>"; };
 		30FB526F2A3C51C00064D7FD /* APIEndpointHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointHelper.swift; sourceTree = "<group>"; };
 		30FB527B2A3C5FEE0064D7FD /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
+		30FB527D2A3C6AD10064D7FD /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +145,7 @@
 				30FB52072A3BC2A00064D7FD /* Preview Content */,
 				30FB523B2A3BC4800064D7FD /* Services */,
 				30FB52342A3BC4440064D7FD /* Shared */,
+				30FB527D2A3C6AD10064D7FD /* README.markdown */,
 			);
 			path = BikeDemo;
 			sourceTree = "<group>";
