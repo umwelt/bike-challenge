@@ -7,70 +7,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "95DCF19D-92F9-4ED0-9A80-1B5B7350F445"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BikeDemo/Modules/BikeStationModule/View/BikeStationListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "95DCF19D-92F9-4ED0-9A80-1B5B7350F445 - 5502530cafb62de4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #3 @Sendable () async -&gt; () in BikeDemo.BikeStationListView.body.getter : some"
-                  moduleName = "BikeDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/View/BikeStationListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "92">
-               </Location>
-               <Location
-                  uuid = "95DCF19D-92F9-4ED0-9A80-1B5B7350F445 - d78ee4e826fc129d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) await resume partial function for closure #3 @Sendable () async -&gt; () in BikeDemo.BikeStationListView.body.getter : some"
-                  moduleName = "BikeDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/View/BikeStationListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "95DCF19D-92F9-4ED0-9A80-1B5B7350F445 - b4c856047cecfc86"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) suspend resume partial function for closure #3 @Sendable () async -&gt; () in BikeDemo.BikeStationListView.body.getter : some"
-                  moduleName = "BikeDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/View/BikeStationListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4D67680E-1BD2-4785-916E-44FB64B1D27F"
+            uuid = "CDF7CE7C-B232-4E8B-8108-0592F3A1F3B9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -79,6 +16,22 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
+            landmarkName = "fetchBikeStations()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60D11D8B-F629-49DA-9B54-17DFD627F238"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BikeDemo/Modules/BikeStationModule/ViewModel/BikeStationListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "fetchBikeStations()"
             landmarkType = "7">
          </BreakpointContent>

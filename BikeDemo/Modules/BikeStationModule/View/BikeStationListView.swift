@@ -49,7 +49,9 @@ struct BikeStationListView: View {
 		}
 		.navigationTitle(Strings.title)
 		.refreshable {
-			await fetchBikeStations()
+			Task {
+				await fetchBikeStations()
+			}
 		}
 		.task {
 			await fetchBikeStations()
