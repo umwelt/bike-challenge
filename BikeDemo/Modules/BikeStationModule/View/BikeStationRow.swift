@@ -16,37 +16,38 @@ struct BikeStationRow: View {
 	}
 
 	var body: some View {
-		VStack(alignment: .leading, spacing: 6) {
-			Text(bikeStation.name)
-				.font(.headline)
-				.modifier(LeftAlignModifier())
-			Text("\(Strings.availableBikes): \(bikeStation.freeBikes)")
-				.font(.subheadline)
-				.foregroundColor(.gray)
-				.modifier(LeftAlignModifier())
-			Text("\(Strings.emptySlots): \(bikeStation.emptySlots )")
-				.font(.subheadline)
-				.foregroundColor(.gray)
-				.modifier(LeftAlignModifier())
-		}
-		.padding(.vertical, 8)
-		.padding(.horizontal)
-		.frame(maxWidth: .infinity)
-		.background(
-			RoundedRectangle(cornerRadius: 10)
-				.stroke(Color.gray, lineWidth: 1)
-		)
-		.clipShape(RoundedRectangle(cornerRadius: 10))
-		.overlay(
-			Image(systemName: "chevron.right") // System provided disclosure indicator
-				.resizable()
-				.aspectRatio(contentMode: .fit)
-				.frame(width: 13, height: 13)
-				.foregroundColor(Color.gray)
-				.padding(.trailing)
-			, alignment: .trailing)
-		.onTapGesture {
+		Button(action: {
 			openMapForLocation(latitude: bikeStation.latitude, longitude: bikeStation.longitude)
+		}) {
+			VStack(alignment: .leading, spacing: 6) {
+				Text(bikeStation.name)
+					.font(.headline)
+					.modifier(LeftAlignModifier())
+				Text("\(Strings.availableBikes): \(bikeStation.freeBikes)")
+					.font(.subheadline)
+					.foregroundColor(.gray)
+					.modifier(LeftAlignModifier())
+				Text("\(Strings.emptySlots): \(bikeStation.emptySlots )")
+					.font(.subheadline)
+					.foregroundColor(.gray)
+					.modifier(LeftAlignModifier())
+			}
+			.padding(.vertical, 8)
+			.padding(.horizontal)
+			.frame(maxWidth: .infinity)
+			.background(
+				RoundedRectangle(cornerRadius: 10)
+					.stroke(Color.gray, lineWidth: 1)
+			)
+			.clipShape(RoundedRectangle(cornerRadius: 10))
+			.overlay(
+				Image(systemName: "chevron.right") // System provided disclosure indicator
+					.resizable()
+					.aspectRatio(contentMode: .fit)
+					.frame(width: 13, height: 13)
+					.foregroundColor(Color.gray)
+					.padding(.trailing)
+				, alignment: .trailing)
 		}
 	}
 
