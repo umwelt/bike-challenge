@@ -58,10 +58,6 @@ struct BikeStationListView: View {
 	}
 
 	private func fetchBikeStations() async {
-		do {
-			try await viewModel.fetchBikeStations()
-		} catch {
-			errorMessage = Strings.errorPrefix + error.localizedDescription
-		}
+		await viewModel.fetchBikeStations()
 	}
 }

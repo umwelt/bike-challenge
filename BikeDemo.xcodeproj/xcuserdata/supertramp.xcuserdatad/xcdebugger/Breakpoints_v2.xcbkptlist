@@ -3,4 +3,210 @@
    uuid = "671E9FBF-E54F-4D2C-AFBE-FB729F41F38A"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABAB4814-6A8E-4D8D-9F50-8AC54CC6DC8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BikeDemo/Services/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetch(type:request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F770E2D-1E4F-4166-B3EC-641E71758BF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BikeDemo/Modules/BikeStationModule/Network/Datasource/BikeStationDatasource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchBikeStations()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F770E2D-1E4F-4166-B3EC-641E71758BF0 - 2525ca1d0f13f43c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BikeDemo.BikeStationDatasource.fetchBikeStations() async throws -&gt; BikeDemo.NetworkResponse"
+                  moduleName = "BikeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/Network/Datasource/BikeStationDatasource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "7F770E2D-1E4F-4166-B3EC-641E71758BF0 - 96f181529e80086b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for BikeDemo.BikeStationDatasource.fetchBikeStations() async throws -&gt; BikeDemo.NetworkResponse"
+                  moduleName = "BikeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/Network/Datasource/BikeStationDatasource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "7F770E2D-1E4F-4166-B3EC-641E71758BF0 - c8b4b75f3bae0b88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BikeDemo.BikeStationDatasource.fetchBikeStations() async throws -&gt; BikeDemo.NetworkResponse"
+                  moduleName = "BikeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/Network/Datasource/BikeStationDatasource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7F770E2D-1E4F-4166-B3EC-641E71758BF0 - c8b4b75f3bae0bce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BikeDemo.BikeStationDatasource.fetchBikeStations() async throws -&gt; BikeDemo.NetworkResponse"
+                  moduleName = "BikeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/Network/Datasource/BikeStationDatasource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "7F770E2D-1E4F-4166-B3EC-641E71758BF0 - 5c3063ece1cd981"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BikeDemo.BikeStationDatasource.fetchBikeStations() async throws -&gt; BikeDemo.NetworkResponse"
+                  moduleName = "BikeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/Network/Datasource/BikeStationDatasource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "7F770E2D-1E4F-4166-B3EC-641E71758BF0 - 5c3063ece1cd9c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BikeDemo.BikeStationDatasource.fetchBikeStations() async throws -&gt; BikeDemo.NetworkResponse"
+                  moduleName = "BikeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Modules/BikeStationModule/Network/Datasource/BikeStationDatasource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D9A56C0-CFE7-41DC-B05D-3315A02ECB9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BikeDemo/Services/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetch(type:request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48D8499E-F78C-410C-8DE3-9BFA8DED9123"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BikeDemo/Services/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetch(type:request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "48D8499E-F78C-410C-8DE3-9BFA8DED9123 - 21332434e73c7b93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BikeDemo.APIClient.fetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(type: &#x3c4;_0_0.Type, request: BikeDemo.Request) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BikeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Services/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "48D8499E-F78C-410C-8DE3-9BFA8DED9123 - 21332434e73c7b93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BikeDemo.APIClient.fetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(type: &#x3c4;_0_0.Type, request: BikeDemo.Request) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BikeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supertramp/Develop/BikeDemo/BikeDemo/Services/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "676">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "940F0392-2C5F-4CE8-95D4-F29BA3F414EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BikeDemo/Services/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetch(type:request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

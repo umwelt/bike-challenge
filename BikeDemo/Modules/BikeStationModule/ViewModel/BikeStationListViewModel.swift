@@ -13,21 +13,20 @@ class BikeStationListViewModel: ObservableObject {
 	@Published var isRefreshing = false
 	@Published var errorMessage: String?
 
-	private let bikeStationDatasource: BikeStationDatasourceProtocol
+	private let bikeStationRepository: BikeStationRepositoryProtocol
 
-	init(bikeStationDatasource: BikeStationDatasourceProtocol = BikeStationDatasource()) {
-		self.bikeStationDatasource = bikeStationDatasource
+	init(bikeStationRepository: BikeStationRepositoryProtocol = BikeStationRepository(datasource: BikeStationDatasource())) {
+		self.bikeStationRepository = bikeStationRepository
 	}
 
-	func fetchBikeStations() async throws {
+	func fetchBikeStations() async {
 		isRefreshing = true
 		do {
-			let networkResponse = try await bikeStationDatasource.fetchBikeStations()
-			bikeStations = networkResponse.network.stations.map { StationViewData(from: $0) }
+			let stations = try await bikeStationRepository.fetchBikeStations()
+			bikeStations = stations.map { StationViewData(from: $0) }
 			errorMessage = nil
 		} catch {
 			errorMessage = "Error fetching bike stations: \(error.localizedDescription)"
-			throw error
 		}
 		isRefreshing = false
 	}
