@@ -35,6 +35,7 @@
 		30FB526E2A3C4EB60064D7FD /* StationViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB526D2A3C4EB60064D7FD /* StationViewData.swift */; };
 		30FB52702A3C51C00064D7FD /* APIEndpointHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB526F2A3C51C00064D7FD /* APIEndpointHelper.swift */; };
 		30FB527C2A3C5FEE0064D7FD /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB527B2A3C5FEE0064D7FD /* MockAPIClient.swift */; };
+		30FB527F2A3CDACF0064D7FD /* LeftAlignModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB527E2A3CDACF0064D7FD /* LeftAlignModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		30FB526F2A3C51C00064D7FD /* APIEndpointHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointHelper.swift; sourceTree = "<group>"; };
 		30FB527B2A3C5FEE0064D7FD /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
 		30FB527D2A3C6AD10064D7FD /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		30FB527E2A3CDACF0064D7FD /* LeftAlignModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -374,6 +376,7 @@
 		30FB52662A3BD8D10064D7FD /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				30FB527E2A3CDACF0064D7FD /* LeftAlignModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -589,6 +592,7 @@
 				30FB524D2A3BC8280064D7FD /* APIClient.swift in Sources */,
 				30FB52022A3BC29F0064D7FD /* BikeMapApp.swift in Sources */,
 				30FB52412A3BC6430064D7FD /* Network.swift in Sources */,
+				30FB527F2A3CDACF0064D7FD /* LeftAlignModifier.swift in Sources */,
 				30FB524B2A3BC7360064D7FD /* BikeStationRepository.swift in Sources */,
 				30FB523F2A3BC62F0064D7FD /* NetworkResponse.swift in Sources */,
 				30FB52492A3BC72C0064D7FD /* BikeStationDatasource.swift in Sources */,
