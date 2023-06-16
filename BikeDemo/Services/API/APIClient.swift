@@ -30,6 +30,7 @@ class APIClient: APIClientProtocol {
 		guard let url = urlComponents.url else {
 			throw APIError.invalidURL
 		}
+		
 
 		var urlRequest = URLRequest(url: url)
 		urlRequest.httpMethod = request.method.rawValue
