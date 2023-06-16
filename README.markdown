@@ -1,6 +1,6 @@
-# BikeMap
+# BikeDemo
 
-BikeMap is a SwiftUI-based demo project that displays bike station data. It fetches information about bike stations in Vienna from the citybik.es API and presents it in an easy-to-understand format.
+BikeDemo is a SwiftUI-based demo project that displays bike station data. It fetches information about bike stations in Vienna from the citybik.es API and presents it in an easy-to-understand format.
 
 ## Features
 
